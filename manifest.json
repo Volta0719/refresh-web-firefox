@@ -1,0 +1,54 @@
+{
+    "author": "24min",
+    "name": "__MSG_name__",
+    "version": "0.0.0.1",
+    "manifest_version": 2,
+    "default_locale": "en",
+    "description": "__MSG_description__",
+    "icons": {
+        "16": "icons/icon.png",
+        "32": "icons/icon.png",
+        "48": "icons/icon.png",
+        "128": "icons/icon.png"
+    },
+    "browser_action": {
+        "browser_style": true,
+        "default_popup": "popup/index.html",
+        "default_icon": "icons/icon.png",
+        "default_title": "__MSG_name__"
+    },
+    "background": {
+        "scripts": [
+            "bg/store.js"
+        ]
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "http://*/*",
+                "https://*/*"
+            ],
+            "run_at": "document_idle",
+            "js": [
+                "utils/tools.js",
+                "content/refreshConfigPage.js"
+            ]
+        }
+    ],
+    "web_accessible_resources": [
+        {
+            "resources": [
+                "icons/*.png"
+            ],
+            "matches": [
+                "<all_urls>"
+            ]
+        }
+    ],
+    "permissions": [
+        "storage",
+        "activeTab",
+        "tabs",
+        "alarms"
+    ]
+}

@@ -1,0 +1,56 @@
+{
+   "description": {
+      "message": "An extension which is scheduled refresh of web pages to view the latest operation status or keep your pages signed in"
+   },
+   "name": {
+      "message": "Refresh Web Page Regularly"
+   },
+   "timetitle": {
+      "message": "Refresh Interval (s)"
+   },
+   "startTask": {
+      "message": "Add"
+   },
+   "startTaskTitle": {
+      "message": "Adds a scheduled refresh task for the current page, and modifies the configuration if it already exists"
+   },
+   "detailCount": {
+      "message": "Number of refreshes"
+   },
+   "nextHappen": {
+      "message": "Next refresh time"
+   },
+   "weburl": {
+      "message": "Web page"
+   },
+   "stopTaskTitle": {
+      "message": "Stop the refresh task"
+   },
+   "closeTaskDetailTitle": {
+      "message": "Close the details page"
+   },
+   "contentConfirmText": {
+      "message": "Stop the refresh task for this webpage?"
+   },
+   "contentAlreadylog": {
+      "message": "[VoltaRefresh]:A refresh task already exists, adjust the refresh interval to "
+   },
+   "refreshTypeTitle": {
+      "message": "Refresh Mode"
+   },
+   "refreshTypeDesc": {
+      "message": "The browser's tab hibernation function will cause the default refresh mode to work incorrectly, but the Long-lasting refresh mode will still work normally (so it is recommended that temporary refresh can use the default refresh mode or you can also turn off the browser's tab hibernation function). In addition, it should be noted that the minimum refresh interval for Long-lasting refresh mode is 1 minute (less than 1 minute will be reset to 1 minute)"
+   },
+   "metaRefreshType": {
+      "message": "Default Refresh"
+   },
+   "alarmsRefreshType": {
+      "message": "Long-lasting Refresh"
+   },
+   "updateBtnTask": {
+      "message": "Update"
+   },
+   "updateBtnTitle": {
+      "message": "A refresh task already exists for the current page"
+   }
+}
