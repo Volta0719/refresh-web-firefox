@@ -1,13 +1,13 @@
 /*
  * @Author: fanjf
  * @Date: 2023-07-20 13:57:47
- * @LastEditTime: 2023-07-29 20:50:35
+ * @LastEditTime: 2023-08-01 14:45:34
  * @LastEditors: fanjf
- * @FilePath: \refresh-web\content\refreshConfigPage.js
+ * @FilePath: \refresh-web-firefox\content\refreshConfigPage.js
  * @Description: 🎉🎉🎉
  */
-// chrome.alarms.create({delayInMinutes: 3.0})
-const id = chrome?.runtime?.id || ''
+// browser.alarms.create({delayInMinutes: 3.0})
+const id = browser?.runtime?.id || ''
 const vloltaSessionInfoKey = `voltaInfo_${id}`
 const voltaMeta = document.querySelector(`meta[name="${vloltaSessionInfoKey}"]`)
 const voltaSessionInfo = sessionStorage.getItem(vloltaSessionInfoKey)
@@ -15,7 +15,7 @@ const voltaSessionInfo = sessionStorage.getItem(vloltaSessionInfoKey)
 //在页面中创建一个指示定时刷新的状态指示器
 const createVoltaRefreshHtml = (time, nexttime, type = 'meta') => {
     if (!!document.getElementById('voltaIcon')) {
-        document.getElementById('voltaIcon').title = `${chrome.i18n.getMessage("nextHappen")}:${nexttime}`;
+        document.getElementById('voltaIcon').title = `${browser.i18n.getMessage("nextHappen")}:${nexttime}`;
         document.getElementById('voltaIcon').style.animationName = `vlota${type}refresh`;
     } else {
         const style = document.createElement('style')
@@ -31,9 +31,9 @@ const createVoltaRefreshHtml = (time, nexttime, type = 'meta') => {
         }
         `));
         document.getElementsByTagName('head')[0].appendChild(style)
-        const defaultImgUrl = chrome.runtime.getURL("icons/icon.png");
+        const defaultImgUrl = browser.runtime.getURL("icons/icon.png");
         let divDom = document.createElement('div');
-        divDom.title = `${chrome.i18n.getMessage("nextHappen")}:${nexttime}`;
+        divDom.title = `${browser.i18n.getMessage("nextHappen")}:${nexttime}`;
         divDom.id = 'voltaIcon';
         divDom.setAttribute('style', `
                   position:fixed;
@@ -57,9 +57,9 @@ const createVoltaRefreshHtml = (time, nexttime, type = 'meta') => {
 
         document.body.appendChild(divDom);
         document.getElementById('voltaIcon').onclick = (e) => {
-            let f = confirm(chrome.i18n.getMessage("contentConfirmText"));
+            let f = confirm(browser.i18n.getMessage("contentConfirmText"));
             if (f) {
-                chrome.runtime.sendMessage({ from: 'content', type: 'stop' }).then((response) => {
+                browser.runtime.sendMessage({ from: 'content', type: 'stop' }).then((response) => {
                     sessionStorage.removeItem(vloltaSessionInfoKey);
                     location.reload();
                 })
@@ -73,7 +73,7 @@ const createVoltaRefreshHtml = (time, nexttime, type = 'meta') => {
 }
 const createVoltaRefresh = (time = '60', name = vloltaSessionInfoKey) => {
     if (!!document.querySelector(`meta[name="${vloltaSessionInfoKey}"]`)) {
-        console.log(`${chrome.i18n.getMessage("contentAlreadylog")}${time}s`)
+        console.log(`${browser.i18n.getMessage("contentAlreadylog")}${time}s`)
         document.querySelector(`meta[name="${vloltaSessionInfoKey}"]`).content = time;
     } else {
         const voltaCreateMeta = document.createElement('meta');
@@ -100,11 +100,9 @@ if (!!voltaSessionInfo) {
             ...voltaSessionInfoObject, nextTime: nextVoltaRerfeshTime
         }))
     }
-    chrome.runtime.sendMessage({ from: 'content', nextTime: nextVoltaRerfeshTime, type: 'update' }).then((response) => {
-
-    });
+    browser.runtime.sendMessage({ from: 'content', nextTime: nextVoltaRerfeshTime, type: 'update' });
 }
-chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
+browser.runtime.onMessage.addListener((request, sender, sendResponse) => {
     //request.refreshType
     const voltaSession =
     {
