@@ -125,7 +125,6 @@ body {
 
 .mask-box {
     position: absolute;
-    /* display: none; */
     pointer-events: none;
     opacity: 0;
     top: 0;
@@ -134,10 +133,8 @@ body {
     height: 100%;
     backdrop-filter: blur(8px);
     background-color: rgba(137, 128, 133, 0.35);
-    /* padding: 20px; */
     overflow-y: auto;
     overflow-x: hidden;
-    /* background-color: ; */
 }
 
 .btn-icon {
@@ -156,7 +153,7 @@ body {
     font-size: 14px;
     line-height: 40px;
     white-space: nowrap;
-    width: 298px;
+    width: 280px;
     overflow: hidden;
     text-overflow: ellipsis;
 }
