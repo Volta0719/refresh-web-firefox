@@ -1,0 +1,56 @@
+{
+   "description": {
+      "message": "定期的に更新して最新の操作ステータスを確認するか、ページをログインしたままにします"
+   },
+   "name": {
+      "message": "ページを定期的に更新する"
+   },
+   "timetitle": {
+      "message": "更新間隔 (秒)"
+   },
+   "startTask": {
+      "message": "足 す"
+   },
+   "startTaskTitle": {
+      "message": "現在のページにスケジュールされた更新タスクを追加し、構成が既に存在する場合は変更します"
+   },
+   "detailCount": {
+      "message": "更新回数"
+   },
+   "nextHappen": {
+      "message": "次回の更新時刻"
+   },
+   "weburl": {
+      "message": "リンク"
+   },
+   "stopTaskTitle": {
+      "message": "更新タスクを停止する"
+   },
+   "closeTaskDetailTitle": {
+      "message": "詳細ページを閉じる"
+   },
+   "contentConfirmText": {
+      "message": "このページの更新タスクを停止しますか?"
+   },
+   "contentAlreadylog": {
+      "message": "[VoltaRefresh]:更新タスクが既に存在する場合は、更新間隔を次のように調整します"
+   },
+   "refreshTypeTitle": {
+      "message": "リフレッシュモード"
+   },
+   "refreshTypeDesc": {
+      "message": "ブラウザのタブ休止状態機能により、デフォルトの更新方法が正しく動作しませんが、長期更新方法は引き続き正常に機能します(したがって、一時的な更新ではデフォルトの更新方法を使用するか、ブラウザのタブ休止状態機能をオフにすることをお勧めします)。 さらに、長期更新モードの最小更新間隔は1分であることに注意してください(1分未満は1分にリセットされます)"
+   },
+   "metaRefreshType": {
+      "message": "デフォルト"
+   },
+   "alarmsRefreshType": {
+      "message": "長い"
+   },
+   "updateBtnTask": {
+      "message": "改める"
+   },
+   "updateBtnTitle": {
+      "message": "現在のページの更新タスクが既に存在します"
+   }
+}
