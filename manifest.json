@@ -35,16 +35,7 @@
             ]
         }
     ],
-    "web_accessible_resources": [
-        {
-            "resources": [
-                "icons/*.png"
-            ],
-            "matches": [
-                "<all_urls>"
-            ]
-        }
-    ],
+    "web_accessible_resources": ["icons/*.png"],
     "permissions": [
         "storage",
         "activeTab",
