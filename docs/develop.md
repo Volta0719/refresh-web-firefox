@@ -8,3 +8,14 @@
 https://juejin.cn/post/7233701928303181861
 
 https://rollupjs.org/configuration-options/#input
+
+
+https://github.com/vladshcherbin/rollup-plugin-copy
+
+
+https://gitee.com/codercjx/rollup-plugin-compression
+bug:Error: EPERM: operation not permitted, unlink 'C:\ltinerary\Volta0719\refresh-web-firefox\refresh-web-firefox.zip'
+
+# 插件地址
+
+https://addons.mozilla.org/zh-CN/firefox/addon/refresh-web-page-regularly/
