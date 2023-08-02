@@ -25,11 +25,17 @@ module.exports = {
             type:'zip',
             targetName:`refresh-web-firefox`,
             ignoreBase: true
-
         })
     ],
     build: {
         outDir: `./${buildDir}`,
+        minify: 'terser',
+        terserOptions: {
+            compress: {
+                drop_console: true,
+                drop_debugger: true,
+            }
+        },
         rollupOptions: {
             input: {
                 bg: path.resolve(__dirname, './bg/store.js'),
