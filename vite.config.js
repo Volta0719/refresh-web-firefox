@@ -10,9 +10,12 @@ const outputFileName = {
 module.exports = {
     plugins: [
         copy({
-            targets: [{
-                src: './popup/index.html', dest: `./${buildDir}/popup/`
-            }],
+            targets: [
+                { src: './popup/index.html', dest: `./${buildDir}/popup/` },
+                { src: './_locales', dest: `./${buildDir}/` },
+                { src: './icons', dest: `./${buildDir}/` },
+                { src: './manifest.json', dest: `./${buildDir}/` },
+            ],
             hook: 'writeBundle'
         })
     ],
