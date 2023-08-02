@@ -11,3 +11,7 @@ https://rollupjs.org/configuration-options/#input
 
 
 https://github.com/vladshcherbin/rollup-plugin-copy
+
+
+https://gitee.com/codercjx/rollup-plugin-compression
+bug:Error: EPERM: operation not permitted, unlink 'C:\ltinerary\Volta0719\refresh-web-firefox\refresh-web-firefox.zip'

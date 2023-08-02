@@ -1,4 +1,5 @@
 import copy from 'rollup-plugin-copy'
+import compresssionBuild from "rollup-plugin-compression";
 const path = require("path");
 const buildDir = 'build';
 const outputFileName = {
@@ -12,11 +13,19 @@ module.exports = {
         copy({
             targets: [
                 { src: './popup/index.html', dest: `./${buildDir}/popup/` },
+                { src:'./utils/tools.js',dest:`./${buildDir}/utils`},
                 { src: './_locales', dest: `./${buildDir}/` },
                 { src: './icons', dest: `./${buildDir}/` },
                 { src: './manifest.json', dest: `./${buildDir}/` },
             ],
             hook: 'writeBundle'
+        }),
+        compresssionBuild({
+            sourceName:`./${buildDir}`,
+            type:'zip',
+            targetName:`refresh-web-firefox`,
+            ignoreBase: true
+
         })
     ],
     build: {
