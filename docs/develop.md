@@ -8,3 +8,6 @@
 https://juejin.cn/post/7233701928303181861
 
 https://rollupjs.org/configuration-options/#input
+
+
+https://github.com/vladshcherbin/rollup-plugin-copy
