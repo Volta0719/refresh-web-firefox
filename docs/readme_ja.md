@@ -1,57 +1,61 @@
-# <img src="https://img1.imgtp.com/2023/08/03/Zain7SkN.png" style="width:30px" /> Refresh Web Page Regularly
+# <img src="https://img1.imgtp.com/2023/08/03/Zain7SkN.png" style="width:30px" /> ページを定期的に更新する
 
 [English](https://github.com/Volta0719/refresh-web-firefox/blob/main/README.md) | [中文](https://github.com/Volta0719/refresh-web-firefox/blob/main/docs/readme_zh_CN.md) | 日本語
 
 
-> This is a browser plugin that helps us refresh web pages on a regular basis.
+> これは、Webページを定期的に自動的に更新するのに役立つブラウザプラグインです。
 >
-> Sometimes we need to get up-to-date information on operations,Sometimes we need to keep the page log-in.But we may not have the free time to manually refresh all the time.This is why I developed this plugin,it can help us refresh regularly.
+> 操作の結果に関する最新のフィードバックを待つ必要がある場合があります
+>
+> ページがログアウトしないように更新し続ける必要がある場合があります
+>
+> ただし、注意を払う時間が少ない可能性があるため、このブラウザプラグインは特定のページを定期的に更新するのに役立ちます
 
-This plugin supports the following browsers:
+以下のブラウザでサポートされています:
 
-|                     | <img src="https://img1.imgtp.com/2023/08/04/dMvKxCQO.png" style="width:20px" /> Edge | <img src="https://img1.imgtp.com/2023/08/04/T7csyLE3.png" style="width:22px" /> Firefox | <img src="https://img1.imgtp.com/2023/08/04/21gqH24x.png" style="width:20px" /> Chrome |
-| :-----------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-|     Source Code     | [refresh-web-chrome](https://github.com/Volta0719/refresh-web-chrome) | [refresh-web-firefox](https://github.com/Volta0719/refresh-web-firefox#refresh-web-firefox) | [refresh-web-chrome](https://github.com/Volta0719/refresh-web-chrome) |
-|   Plugins address   |                      Still under review                      | [Firefox Browser ADD-ONS](https://addons.mozilla.org/en-US/firefox/addon/refresh-web-page-regularly/) | [Use it from the source code](https://github.com/Volta0719/refresh-web-firefox#3how-can-i-use-it-from-the-source-code) |
-| Supported languages |                  Chinese、English、Japanese                  |                  Chinese、English、Japanese                  |                  Chinese、English、Japanese                  |
+|                        | <img src="https://img1.imgtp.com/2023/08/04/dMvKxCQO.png" style="width:20px" /> Edge | <img src="https://img1.imgtp.com/2023/08/04/T7csyLE3.png" style="width:22px" /> Firefox | <img src="https://img1.imgtp.com/2023/08/04/21gqH24x.png" style="width:20px" /> Chrome |
+| :--------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| ソースコードリポジトリ | [refresh-web-chrome](https://github.com/Volta0719/refresh-web-chrome) | [refresh-web-firefox](https://github.com/Volta0719/refresh-web-firefox#refresh-web-firefox) | [refresh-web-chrome](https://github.com/Volta0719/refresh-web-chrome) |
+|   プラグインアドレス   |                          まだ検討中                          | [ファイアーフォックスストア](https://addons.mozilla.org/en-US/firefox/addon/refresh-web-page-regularly/) | [ソースからのインストールと使用](https://github.com/Volta0719/refresh-web-firefox#3how-can-i-use-it-from-the-source-code) |
+|        対応言語        |                    中国語、 英語、日本語                     |                    中国語、 英語、日本語                     |                    中国語、 英語、日本語                     |
 
 ![](https://img1.imgtp.com/2023/08/03/7hiRC5VM.png)
 
 ![](https://img1.imgtp.com/2023/08/03/gzPiVWhw.png)
 
-## How To Use？
+## 使い方？
 
-1. **First you have to install**：You can install it from the store or use the source code.
-2. **Add a refresh task :** Choose when and how you want to refresh. Different refresh methods correspond to different code implementations. So if you need to perform the refresh task all night and all night, choose *Long-lasting Refresh* type. If you add successfully, this icon  (<img src="https://img1.imgtp.com/2023/08/03/Zain7SkN.png" style="width:30px" />) will appear in the right-centered position on the target website. Different refresh methods correspond to different animation effects. Left-click can stop the task, right-click can hide the icon during this refresh cycle.
-3. **Grab a cup of coffee and wait for the refresh**: You can see the ICO icon at the bottom of the plugin's popup page, and You can get the details of this task after you click it (For example, the next refresh time and how many times it had already been refreshed).
+1. **まず、インストールする必要があります**：プラグインストアから入手するか、ソースコードからインストールできます。
+2. **更新タスクを追加する :** 更新するタイミングと方法を選択する。異なる更新方法は、異なるコード実装に対応します。したがって、一晩中、一晩中更新タスクを実行する必要がある場合, 選ぶ*長い*方法. 正常に追加すると、このアイコン(<img src="https://img1.imgtp.com/2023/08/03/Zain7SkN.png" style="width:26px" />)がターゲットWebサイトの右中央に表示されます。 異なる更新方法は、異なるアニメーション効果に対応します。左クリックするとタスクを停止でき、右クリックするとこの更新サイクル中にアイコンを非表示にできます。
+3. **コーヒーを飲みながらリフレッシュを待つ**: プラグインのポップアップページの下部にICOアイコンが表示され、クリックするとこのタスクの詳細を取得できます(たとえば、次の更新時間やすでに更新された回数)。
 
 ## Q&A
 
-###### 1. What is the difference between the two refresh modes?
+###### 1. 2つのリフレッシュモードの違いは何ですか?
 
-- **Default Refresh:** Suitable for temporary refreshes. For example, I need to pay attention to whether there is feedback on the results of what I just did. If your browser classifies your page as an inactive tab or doesn't work for a long time, it won't work(Unless you can make sure your browser doesn't do this).
-- **Long-lasting Refresh** :Suitable for long refreshes.It will always work even if you have not operated for a long time. For example, If you want to keep your page logged in, just use this refresh method , Tomorrow you will see an increasing number of refreshes. Yes, it always works.
+- **デフォルト:** 一時的な更新に適しています。たとえば、私が今やったことの結果についてのフィードバックがあるかどうかに注意を払う必要があります。ブラウザがページを非アクティブなタブとして分類している場合、または長時間機能しない場合、機能しません(ブラウザがこれを行わないことを確認できない場合を除く)。
+- **長い** :長いリフレッシュに適しています。長期間操作していなくても常に機能します。たとえば、ページをログインしたままにしたい場合は、これを使用するだけです 更新方法 、明日は更新の数が増えます。はい、常に機能します。
 
-###### 2. How can I stop the task?
+###### 2. タスクを停止するにはどうすればよいですか?
 
-- **In the popup page**: Click the footer ico, In the upper right corner of the details page, there is a stop button to stop the task that is automatically refreshed.
-- **In the target website**: In the right-centered position on the target website will appear this icon  (<img src="https://img1.imgtp.com/2023/08/03/Zain7SkN.png" style="width:30px" />),click it will stop the task.
+- **ポップアップページ**: フッターicoをクリックし、詳細ページの右上隅に、自動的に更新されるタスクを停止する停止ボタンがあります。
+- **ターゲットのウェブサイトで**: ターゲットWebサイトの右中央位置にこのアイコンが表示されます(<img src="https://img1.imgtp.com/2023/08/03/Zain7SkN.png" style="width:26px" />)、クリックするとタスクが停止します。
 
-###### 3. How can i use it from the source code?
+###### 3. ソースコードからどのように使用できますか?
 
-- Obtain the source code and execute the following command:
+- ソースコードを入手し、次のコマンドを実行します:
 
   ```shell
-  git clone <The corresponding source repository>
+  git clone <対応するソースリポジトリ>
   
   npm install 
   
   npm run build
   ```
 
-- The browser turns on developer mode and On the Plugin Management page, select Load plugin from file (The packaged product of the previous step)
+- [プラグイン管理] ページで、開発者モードをオンにし、[ファイルからプラグインを読み込む] を選択します (前の手順のパッケージ製品)
 
-- You can use it now!
+- あなたは今それを使うことができます!
 
 
 
