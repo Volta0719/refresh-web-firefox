@@ -13,4 +13,6 @@ This plugin supports the following browsers:
 |   Plugins address   |                      Still under review                      | [Firefox Browser ADD-ONS](https://addons.mozilla.org/en-US/firefox/addon/refresh-web-page-regularly/) |             Use it according to the source code              |
 | Supported languages |                  Chinese、English、Japanese                  |                  Chinese、English、Japanese                  |                  Chinese、English、Japanese                  |
 
-![]()
+![](https://img1.imgtp.com/2023/08/03/7hiRC5VM.png)
+
+![](https://img1.imgtp.com/2023/08/03/gzPiVWhw.png)
