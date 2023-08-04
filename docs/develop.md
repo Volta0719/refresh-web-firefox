@@ -1,3 +1,11 @@
+<!--
+ * @Author: fanjf
+ * @Date: 2023-08-02 14:53:21
+ * @LastEditTime: 2023-08-04 10:56:01
+ * @LastEditors: fanjf
+ * @FilePath: \refresh-web-firefox\docs\develop.md
+ * @Description: 🎉🎉🎉
+-->
 # develop url
 【扩展文档】:https://developer.mozilla.org/zh-CN/docs/Mozilla/Add-ons/WebExtensions 
 
@@ -19,3 +27,18 @@ bug:Error: EPERM: operation not permitted, unlink 'C:\ltinerary\Volta0719\refres
 # 插件地址
 
 https://addons.mozilla.org/zh-CN/firefox/addon/refresh-web-page-regularly/
+
+# 图片链接
+https://raw.githubusercontent.com/Volta0719/refresh-web-firefox/main/image/home.png
+
+https://raw.githubusercontent.com/Volta0719/refresh-web-firefox/main/image/detail.png
+
+https://raw.githubusercontent.com/Volta0719/refresh-web-firefox/main/icons/icon.png
+
+icon：https://img1.imgtp.com/2023/08/03/Zain7SkN.png
+detail：https://img1.imgtp.com/2023/08/03/gzPiVWhw.png
+home：https://img1.imgtp.com/2023/08/03/7hiRC5VM.png
+
+火狐：https://img1.imgtp.com/2023/08/04/T7csyLE3.png
+edge：https://img1.imgtp.com/2023/08/04/dMvKxCQO.png
+chrome：https://img1.imgtp.com/2023/08/04/21gqH24x.png
