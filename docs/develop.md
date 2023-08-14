@@ -1,7 +1,7 @@
 <!--
  * @Author: fanjf
  * @Date: 2023-08-02 14:53:21
- * @LastEditTime: 2023-08-04 10:56:01
+ * @LastEditTime: 2023-08-11 16:27:32
  * @LastEditors: fanjf
  * @FilePath: \refresh-web-firefox\docs\develop.md
  * @Description: 🎉🎉🎉
@@ -42,3 +42,7 @@ home：https://img1.imgtp.com/2023/08/03/7hiRC5VM.png
 火狐：https://img1.imgtp.com/2023/08/04/T7csyLE3.png
 edge：https://img1.imgtp.com/2023/08/04/dMvKxCQO.png
 chrome：https://img1.imgtp.com/2023/08/04/21gqH24x.png
+
+
+# tips of firefox
+https://discourse.mozilla.org/t/this-add-on-is-not-actively-monitored-for-security-by-mozilla-make-sure-you-trust-it-before-installing/121823
