@@ -13,7 +13,7 @@
 
 支持在以下浏览器中使用：
 
-|              | <img src="https://raw.githubusercontent.com/Volta0719/refresh-web-firefox/main/image/edge.png" style="width:20px" /> Edge | <img src="https://raw.githubusercontent.com/Volta0719/refresh-web-firefox/main/image/firefox.png" style="width:22px" /> Firefox | <img src="https://raw.githubusercontent.com/Volta0719/refresh-web-firefox/main/image/chrome.png" style="width:20px" /> Chrome |
+|              | <img src="https://raw.githubusercontent.com/Volta0719/refresh-web-firefox/main/image/edge.png" style="width:20px" /> Edge | <img src="https://raw.githubusercontent.com/Volta0719/refresh-web-firefox/main/image/firefox.png" style="width:22px" /> Firefox | <img src="https://img1.imgtp.com/2023/08/04/21gqH24x.png" style="width:20px" /> Chrome |
 | :----------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 |    源代码    | [refresh-web-chrome](https://github.com/Volta0719/refresh-web-chrome) | [refresh-web-firefox](https://github.com/Volta0719/refresh-web-firefox#refresh-web-firefox) | [refresh-web-chrome](https://github.com/Volta0719/refresh-web-chrome) |
 | 插件商店地址 | [微软插件商店](https://microsoftedge.microsoft.com/addons/detail/gjklkjghflejbeibdlefkbdljeoihkcp) | [火狐插件商店](https://addons.mozilla.org/zh-CN/firefox/addon/refresh-web-page-regularly/) |                        从源码安装使用                        |
