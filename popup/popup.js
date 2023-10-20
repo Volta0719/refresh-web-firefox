@@ -1,9 +1,9 @@
 /*
  * @Author: fanjf
  * @Date: 2023-07-20 14:20:05
- * @LastEditTime: 2023-07-28 16:55:36
+ * @LastEditTime: 2023-10-20 15:10:08
  * @LastEditors: fanjf
- * @FilePath: \refresh-web\popup\popup.js
+ * @FilePath: \refresh-web-firefox\popup\popup.js
  * @Description: 🎉🎉🎉 
  */
 const htmli18nList = {
@@ -65,6 +65,10 @@ const htmli18nList = {
     refreshType: [{
         props: 'innerText',
         value: 'refreshTypeTitle'
+    }],
+    anchorPage: [{
+        props: 'title',
+        value: 'anchorPageTitle'
     }]
 
 }
@@ -280,6 +284,12 @@ icoBox.onclick = async (e) => {
     document.getElementById('voltastopTask').setAttribute('data-id', e.target.id)
     voltaMaskBox.classList.remove('mask-box-out');
     voltaMaskBox.classList.add('mask-box-in');
+}
+document.getElementById('iconVolta').onclick = () => {
+    const tabId = document.getElementById('tabIdVolta').innerText;
+    const winId = document.getElementById('winIdVolta').innerText;
+    browser.windows.update(+winId, { focused: true });
+    browser.tabs.update(+tabId, { active: true });
 }
 // close detail
 document.getElementById('voltacloseTaskDetail').onclick = (e) => {
